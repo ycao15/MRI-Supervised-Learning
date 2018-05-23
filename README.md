@@ -37,10 +37,10 @@ To implement each classifier, the input data was first loaded into a Jupyter not
 
 Development was completed using Google Colaboratory, which enables editing of Jupyter notebooks in the cloud. This was chosen because of its greater memory (12GB) and also for its GPU accelerated runtime. Since Tensorflow was selected as the backend for Keras, the library could take advantage of this runtime to improve performance. 
 
----
 ## Results
+Mouse over the bars that go over the charts to see their values
 
-![alt text](data/results.png)
+<iframe width="1401.9203163017032" height="864.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQwLw6ia58vlLh1i2i4zxtcn2HNFwhS29XNx-lHCjCoGjQwTGju-5-_yQ4t-P_Ksq9t2urqHQQvAOQr/pubchart?oid=2084364792&amp;format=interactive"></iframe>
 
 ---
 ## Technical References
@@ -74,6 +74,7 @@ Development was completed using Google Colaboratory, which enables editing of Ju
 		- [Core Layers](https://keras.io/layers/core/)
 
 ## Sources
-- [1] **Impact of Stroke** (Stroke statistics). (2016, June 6). Retrieved May 6, 2018, from http://www.strokeassociation.org/STROKEORG/AboutStroke/Impact-of-Stroke-Stroke-statistics_UCM_310728_Article.jsp
-- [2] Y. Yu, D. Guo, M. Lou, D. S. Liebeskind and F. Scalzo, **Prediction of Hemorrhagic Transformation Severity in Acute Stroke from Source Perfusion MRI**, in _IEEE Transactions on Biomedical Engineering_.
+[1] **Impact of Stroke** (Stroke statistics). (2016, June 6). Retrieved May 6, 2018, from http://www.strokeassociation.org/STROKEORG/AboutStroke/Impact-of-Stroke-Stroke-statistics_UCM_310728_Article.jsp
+
+[2] Y. Yu, D. Guo, M. Lou, D. S. Liebeskind and F. Scalzo, **Prediction of Hemorrhagic Transformation Severity in Acute Stroke from Source Perfusion MRI**, in _IEEE Transactions on Biomedical Engineering_.
 
