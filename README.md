@@ -1,5 +1,4 @@
 # Detection of Cerebral Hemorrhages With Supervised Learning
---- 
 
 ## Introduction
 
@@ -13,8 +12,6 @@ The purpose of this project is to compare the accuracy and speed of various clas
 - Features: 618 – see Data set Readme in *./data*
 - Positive/Negative labels: 25018/24982
 	- accuracy is a suitable metric since the data is balanced
-
----
 
 ## Binary Classifiers Tested
 - Support Vector Machine (SVM)
@@ -30,10 +27,9 @@ The purpose of this project is to compare the accuracy and speed of various clas
 - Nearest Centroid
 - Multi-layer Perceptron (MLP) Classifier [neural network]
 	
---- 
 ## Methods
 
-Scikit-learn was used to implement all of the classifiers above except Logistic Regression using the built-in models. Keras was used to create a second custom neural network for evaluation. 
+Scikit-learn was used to implement all of the classifiers above using the built-in models. Keras was used to create a second custom neural network for evaluation as well as a Logistic Regression classifier. 
 
 To implement each classifier, the input data was first loaded into a Jupyter notebook and split up 70%/30% for the training/testing sets. To improve the performance of the classifiers, the data was then feature-scaled using Scikit-learn's StandardScaler. Afterward, the dimensionality of the data was reduced using a Truncated SVD algorithm to reduce the amount of data fed into each classifier and improve performance.
 
